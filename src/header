@@ -1,0 +1,116 @@
+        .navbar {
+            padding: 1rem 0;
+            transition: all 0.3s ease;
+            background-color: rgba(255, 255, 255, 0.9) !important;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+
+        .navbar-brand i {
+            color: var(--primary-color);
+        }
+
+        .nav-link {
+            font-weight: 500;
+            padding: 0.5rem 1rem !important;
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover {
+            color: var(--primary-color) !important;
+        }
+
+        .navbar a > img{
+            margin-left:-250px;
+            margin-right:40px;
+        }
+        .navnar a{
+            font-size:10px;
+        }
+        a > img{
+            width:100px;
+            height:100px;
+        }
+        a{
+            text-decoration:none;
+            color:black;
+        }
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"><img src="" alt="">
+            <div class="container">
+                <a class="navbar-brand" href="index.php">
+                    <img src="barangay_victoria.png" alt="image not found">
+                    Barangay Victoria Reyes Dasmariñas Health Center
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                 <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-secondary ms-2" href="login.php">Admin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-primary ms-2" href="patients_index.php">Patient Login</a>
+                        </li>
+                    </ul>
+                <div>
+            </div>
+        </nav>
+
+
+        .social-icons a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+        }
+
+        .fb {
+            width: 75px;
+            height: 75px;
+        }
+
+        .social-icons a:hover {
+            transform:scale(1.1);
+            transition:0.2s;
+        }
+
+        .social-icons  img{
+            width: 75px;
+            height: 75px;
+        }
+
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com/pages/Victoria-Reyes-Dasmarinas-Cavite/154851691357450" target="blank" class="fb">
+                <img src="fb_icon2.png" alt="">
+            </a>
+        </div>
+
+        .background{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            min-height: 100vh;
+            background-image: url(barangay_health_center.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: -1;
+            filter: blur(16px);
+        }
